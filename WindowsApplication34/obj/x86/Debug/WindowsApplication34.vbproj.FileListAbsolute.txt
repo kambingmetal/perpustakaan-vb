@@ -1,0 +1,11 @@
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\bin\Debug\WindowsApplication34.exe
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\bin\Debug\WindowsApplication34.pdb
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\bin\Debug\WindowsApplication34.xml
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.Form1.resources
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.Resources.resources
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.vbproj.GenerateResource.Cache
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.exe
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.xml
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.pdb
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.Penulis.resources
+c:\users\yusuf\documents\visual studio 2010\Projects\WindowsApplication34\WindowsApplication34\obj\x86\Debug\WindowsApplication34.Pembaca.resources
