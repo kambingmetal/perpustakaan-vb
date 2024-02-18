@@ -29,7 +29,10 @@ Partial Class Penulis
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txt_tambah = New System.Windows.Forms.TextBox()
         Me.btn_tambah = New System.Windows.Forms.Button()
+        Me.btn_hapus = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.btn_update = New System.Windows.Forms.Button()
+        Me.txt_logout = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -72,11 +75,11 @@ Partial Class Penulis
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Perpetua Titling MT", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(705, 96)
+        Me.Label2.Location = New System.Drawing.Point(675, 97)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(107, 24)
+        Me.Label2.Size = New System.Drawing.Size(178, 24)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Tambah"
+        Me.Label2.Text = "Tambah Buku"
         '
         'txt_tambah
         '
@@ -94,21 +97,54 @@ Partial Class Penulis
         Me.btn_tambah.Text = "Tambah"
         Me.btn_tambah.UseVisualStyleBackColor = True
         '
+        'btn_hapus
+        '
+        Me.btn_hapus.Location = New System.Drawing.Point(456, 389)
+        Me.btn_hapus.Name = "btn_hapus"
+        Me.btn_hapus.Size = New System.Drawing.Size(75, 23)
+        Me.btn_hapus.TabIndex = 8
+        Me.btn_hapus.Text = "Hapus Buku"
+        Me.btn_hapus.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(13, 61)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(54, 13)
+        Me.Label3.TabIndex = 9
+        Me.Label3.Text = "Pilih Buku"
+        '
         'btn_update
         '
         Me.btn_update.Location = New System.Drawing.Point(541, 389)
         Me.btn_update.Name = "btn_update"
         Me.btn_update.Size = New System.Drawing.Size(75, 23)
-        Me.btn_update.TabIndex = 8
+        Me.btn_update.TabIndex = 10
         Me.btn_update.Text = "Update Isi"
         Me.btn_update.UseVisualStyleBackColor = True
+        '
+        'txt_logout
+        '
+        Me.txt_logout.AutoSize = True
+        Me.txt_logout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.txt_logout.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_logout.Location = New System.Drawing.Point(847, 9)
+        Me.txt_logout.Name = "txt_logout"
+        Me.txt_logout.Size = New System.Drawing.Size(40, 13)
+        Me.txt_logout.TabIndex = 12
+        Me.txt_logout.Text = "Logout"
+        Me.txt_logout.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Penulis
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(899, 424)
+        Me.Controls.Add(Me.txt_logout)
         Me.Controls.Add(Me.btn_update)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.btn_hapus)
         Me.Controls.Add(Me.btn_tambah)
         Me.Controls.Add(Me.txt_tambah)
         Me.Controls.Add(Me.Label2)
@@ -129,5 +165,8 @@ Partial Class Penulis
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txt_tambah As System.Windows.Forms.TextBox
     Friend WithEvents btn_tambah As System.Windows.Forms.Button
+    Friend WithEvents btn_hapus As System.Windows.Forms.Button
+    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents btn_update As System.Windows.Forms.Button
+    Friend WithEvents txt_logout As System.Windows.Forms.Label
 End Class

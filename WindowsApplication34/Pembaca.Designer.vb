@@ -26,11 +26,13 @@ Partial Class Pembaca
         Me.cmb_pilih_file = New System.Windows.Forms.ComboBox()
         Me.rt_buka_file = New System.Windows.Forms.RichTextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txt_logout = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(871, 83)
+        Me.Button1.Location = New System.Drawing.Point(212, 91)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 8
@@ -40,7 +42,7 @@ Partial Class Pembaca
         'cmb_pilih_file
         '
         Me.cmb_pilih_file.FormattingEnabled = True
-        Me.cmb_pilih_file.Location = New System.Drawing.Point(740, 84)
+        Me.cmb_pilih_file.Location = New System.Drawing.Point(71, 93)
         Me.cmb_pilih_file.Name = "cmb_pilih_file"
         Me.cmb_pilih_file.Size = New System.Drawing.Size(125, 21)
         Me.cmb_pilih_file.TabIndex = 7
@@ -63,11 +65,34 @@ Partial Class Pembaca
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Pembaca"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(68, 77)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(54, 13)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "Pilih Buku"
+        '
+        'txt_logout
+        '
+        Me.txt_logout.AutoSize = True
+        Me.txt_logout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.txt_logout.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_logout.Location = New System.Drawing.Point(965, 9)
+        Me.txt_logout.Name = "txt_logout"
+        Me.txt_logout.Size = New System.Drawing.Size(40, 13)
+        Me.txt_logout.TabIndex = 11
+        Me.txt_logout.Text = "Logout"
+        Me.txt_logout.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
         'Pembaca
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1017, 423)
+        Me.Controls.Add(Me.txt_logout)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.cmb_pilih_file)
         Me.Controls.Add(Me.rt_buka_file)
@@ -82,4 +107,6 @@ Partial Class Pembaca
     Friend WithEvents cmb_pilih_file As System.Windows.Forms.ComboBox
     Friend WithEvents rt_buka_file As System.Windows.Forms.RichTextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txt_logout As System.Windows.Forms.Label
 End Class
